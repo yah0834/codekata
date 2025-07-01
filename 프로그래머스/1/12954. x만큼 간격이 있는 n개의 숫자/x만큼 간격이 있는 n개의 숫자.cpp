@@ -5,8 +5,8 @@ using namespace std;
 
 vector<long long> solution(int x, int n) {
     vector<long long> answer;
-    for (int i=1; i<=n; ++i) {
-        answer.push_back((long long)x*i);
+    for(int i=1; i<=n; i++) {
+        answer.push_back((long long) i*x);
     }
     return answer;
 }
